@@ -53,8 +53,8 @@
 		3F4CA18218229FC0002928A5 /* Lesson3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lesson3Tests-Info.plist"; sourceTree = "<group>"; };
 		3F4CA18418229FC0002928A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F4CA18618229FC0002928A5 /* Lesson3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson3Tests.m; sourceTree = "<group>"; };
-		3F4CA1C91822A458002928A5 /* RoutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoutesViewController.h; path = ../UI/RoutesViewController.h; sourceTree = "<group>"; };
-		3F4CA1CA1822A458002928A5 /* RoutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoutesViewController.m; path = ../UI/RoutesViewController.m; sourceTree = "<group>"; };
+		3F4CA1C91822A458002928A5 /* RoutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoutesViewController.h; path = UI/RoutesViewController.h; sourceTree = "<group>"; };
+		3F4CA1CA1822A458002928A5 /* RoutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoutesViewController.m; path = UI/RoutesViewController.m; sourceTree = "<group>"; };
 		3F4CA1CD1827978B002928A5 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
 		3F4CA1CE1827978B002928A5 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 		3F4CA1D01827D978002928A5 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
