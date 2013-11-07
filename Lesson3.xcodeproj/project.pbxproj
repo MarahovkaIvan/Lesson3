@@ -23,6 +23,9 @@
 		3F4CA1CB1822A458002928A5 /* RoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4CA1CA1822A458002928A5 /* RoutesViewController.m */; };
 		3F4CA1CF1827978B002928A5 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4CA1CE1827978B002928A5 /* MyCell.m */; };
 		3F4CA1D21827D978002928A5 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4CA1D11827D978002928A5 /* ImageCell.m */; };
+		3F769C51182BE9CD00A24190 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F769C4E182BE9CD00A24190 /* JASidePanelController.m */; };
+		3F769C52182BE9CD00A24190 /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F769C50182BE9CD00A24190 /* UIViewController+JASidePanel.m */; };
+		3F769C55182BEBBD00A24190 /* SidePanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F769C54182BEBBD00A24190 /* SidePanelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,12 @@
 		3F4CA1CE1827978B002928A5 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 		3F4CA1D01827D978002928A5 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
 		3F4CA1D11827D978002928A5 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		3F769C4D182BE9CD00A24190 /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
+		3F769C4E182BE9CD00A24190 /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
+		3F769C4F182BE9CD00A24190 /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
+		3F769C50182BE9CD00A24190 /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
+		3F769C53182BEBBD00A24190 /* SidePanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidePanelViewController.h; sourceTree = "<group>"; };
+		3F769C54182BEBBD00A24190 /* SidePanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidePanelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +137,8 @@
 				3F4CA1CE1827978B002928A5 /* MyCell.m */,
 				3F4CA1D01827D978002928A5 /* ImageCell.h */,
 				3F4CA1D11827D978002928A5 /* ImageCell.m */,
+				3F769C53182BEBBD00A24190 /* SidePanelViewController.h */,
+				3F769C54182BEBBD00A24190 /* SidePanelViewController.m */,
 			);
 			path = Lesson3;
 			sourceTree = "<group>";
@@ -135,6 +146,7 @@
 		3F4CA16218229FBF002928A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3F769C4C182BE9CD00A24190 /* Source */,
 				3F4CA16318229FBF002928A5 /* Lesson3-Info.plist */,
 				3F4CA16418229FBF002928A5 /* InfoPlist.strings */,
 				3F4CA16718229FBF002928A5 /* main.m */,
@@ -168,6 +180,17 @@
 				3F4CA1CA1822A458002928A5 /* RoutesViewController.m */,
 			);
 			name = "New Group";
+			sourceTree = "<group>";
+		};
+		3F769C4C182BE9CD00A24190 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3F769C4D182BE9CD00A24190 /* JASidePanelController.h */,
+				3F769C4E182BE9CD00A24190 /* JASidePanelController.m */,
+				3F769C4F182BE9CD00A24190 /* UIViewController+JASidePanel.h */,
+				3F769C50182BE9CD00A24190 /* UIViewController+JASidePanel.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,11 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F769C55182BEBBD00A24190 /* SidePanelViewController.m in Sources */,
 				3F4CA16C18229FBF002928A5 /* AppDelegate.m in Sources */,
 				3F4CA1D21827D978002928A5 /* ImageCell.m in Sources */,
+				3F769C51182BE9CD00A24190 /* JASidePanelController.m in Sources */,
 				3F4CA1CF1827978B002928A5 /* MyCell.m in Sources */,
 				3F4CA16818229FBF002928A5 /* main.m in Sources */,
 				3F4CA1CB1822A458002928A5 /* RoutesViewController.m in Sources */,
+				3F769C52182BE9CD00A24190 /* UIViewController+JASidePanel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

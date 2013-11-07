@@ -9,6 +9,7 @@
 #import "RoutesViewController.h"
 #import "MyCell.h"
 #import "ImageCell.h"
+#import "SidepanelViewController.h"
 
 @interface RoutesViewController ()
 
